@@ -4,7 +4,7 @@
 
 #define MAX_STACK_SIZE 100
 
-typedef char element;
+typedef char element; //ìë£Œí˜•ì— ë”°ë¼ ë°”ê¾¸ê¸° ì‰½ê²Œ í•˜ê¸°ìœ„í•´ ì„ ì–¸ 
 
 struct stack
 {
@@ -24,11 +24,11 @@ int main()
 
 	if (result == 0)
 	{
-		printf("%s °ıÈ£°Ë»ç ¹®Á¦ \'¾ø½À\'´Ï´Ù.\n",p);
+		printf("%s ê´„í˜¸ê²€ì‚¬ ë¬¸ì œ \'ì—†ìŠµ\'ë‹ˆë‹¤.\n",p);
 	}
 	else
 	{
-		printf("%s °ıÈ£°Ë»ç ¹®Á¦ \'ÀÖ½À\'´Ï´Ù.\n",p);
+		printf("%s ê´„í˜¸ê²€ì‚¬ ë¬¸ì œ \'ìˆìŠµ\'ë‹ˆë‹¤.\n",p);
 	}
 		
 }
